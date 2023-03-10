@@ -1,0 +1,14 @@
+* {
+    box-sizing: unset;
+}
+header {
+    display: flex;
+}
+header nav ul a {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column !important;
+}
+h1 {
+    font-size: 1000%;
+}
