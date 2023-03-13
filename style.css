@@ -1,14 +1,21 @@
 * {
     box-sizing: unset;
 }
+body {
+    background-image: url(./Old-scroll.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header {
     display: flex;
+    justify-content: center;
 }
-header nav ul a {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: column !important;
+
+nav {
+    justify-content: center;
 }
-h1 {
-    font-size: 1000%;
+nav ul a {
+    /* flex-wrap: wrap-reverse; */
+    flex-direction: row;
+    padding: 25px;
 }
